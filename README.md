@@ -16,7 +16,7 @@ Sadly, Microsoft still doesn't support private extensions so here it is...
 |iwrapper        |Import input wrapper className structure in the file.        |
 |icheckbox       |Import checkbox input className structure in the file.       |
 |iradio          |Import radio input className structure in the file.          |
-|islider         |Import slider input className structure in the file.         |
+|iswitch         |Import switch input className structure in the file.         |
 |ibutton         |Import Button className structure in the file.               |
 
 # Repository URLs
