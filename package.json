@@ -1,16 +1,16 @@
 {
 	"name": "xalesssnippets",
 	"description": "Less code snippets for xa-inputs private package.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"displayName": "React - Less snippets (XAcademy)",
 	"publisher": "Tomi",
-	"icon": "images/react.png",
+	"icon": "images/less_icon.png",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Tom-xacademy/xa-less-snippets"
 	},
-	"keywords": [ "less-xa", "less", "codesnippets", "less code snippets", "xacademy" ],
+	"keywords": [ "less-xa", "xacademy" ],
 	"engines": {
 		"vscode": "0.10.x"
 	},
