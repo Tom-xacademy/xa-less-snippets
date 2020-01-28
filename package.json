@@ -1,36 +1,36 @@
 {
-	"name": "xalesssnippets",
-	"description": "Less code snippets for xa-inputs private package.",
-	"version": "1.0.1",
-	"displayName": "React - Less snippets (XAcademy)",
-	"publisher": "Tomi",
-	"icon": "images/less_icon.png",
-	"license": "ISC",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Tom-xacademy/xa-less-snippets"
-	},
-	"keywords": [ "less-xa", "xacademy" ],
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [ "Snippets" ],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "less",
-				"path": "./snippets/snippets.json"
-			}
-		]
-	},
-	"author": "tamas.xacademy@gmail.com",
-	"bugs": {
-		"url": "https://github.com/Tom-xacademy/xa-less-snippets/issues"
-	},
-	"homepage": "https://github.com/Tom-xacademy/xa-less-snippets#readme",
-	"__metadata": {
-		"id": "",
-		"publisherId": "",
-		"publisherDisplayName": "Tomi"
-	}
+    "name": "xalesssnippets",
+    "description": "Less code snippets for xa-inputs private package.",
+    "version": "1.0.2",
+    "displayName": "React - Less snippets (XAcademy)",
+    "publisher": "Tomi",
+    "icon": "images/less_icon.png",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Tom-xacademy/xa-less-snippets"
+    },
+    "keywords": [ "less-xa", "xacademy" ],
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [ "Snippets" ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "less",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "author": "tamas.xacademy@gmail.com",
+    "bugs": {
+        "url": "https://github.com/Tom-xacademy/xa-less-snippets/issues"
+    },
+    "homepage": "https://github.com/Tom-xacademy/xa-less-snippets#readme",
+    "__metadata": {
+        "id": "",
+        "publisherId": "",
+        "publisherDisplayName": "Tomi"
+    }
 }
