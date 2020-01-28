@@ -12,6 +12,7 @@ Sadly, Microsoft still doesn't support private extensions so here it is...
 |----------------|-------------------------------------------------------------|
 |ims             |Import Colors and Mixins less files.                         |
 |idate           |Import datepicker className structure in the file.           |
+|ierror          |Import error handler className structure in the file.        |
 |iselect         |Import select input className structure in the file.         |
 |iwrapper        |Import input wrapper className structure in the file.        |
 |icheckbox       |Import checkbox input className structure in the file.       |
