@@ -492,5 +492,10 @@
             "}"
         ],
         "description": "Generates styling for the error handler component."
+    },
+    "XAMediaQuery": {
+        "prefix": "imedia",
+        "body": [ "@media screen and (max-width: ${1}) {", "   ${2}", "}" ],
+        "description": "Generates a media query with max-width restriction"
     }
 }

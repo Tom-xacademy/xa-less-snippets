@@ -19,6 +19,7 @@ Sadly, Microsoft still doesn't support private extensions so here it is...
 |iradio          |Import radio input className structure in the file.          |
 |iswitch         |Import switch input className structure in the file.         |
 |ibutton         |Import Button className structure in the file.               |
+|imedia          |Generates a media query snippet with max-width.              |
 
 # Repository URLs
 
