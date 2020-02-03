@@ -1,7 +1,7 @@
 {
     "name": "xalesssnippets",
     "description": "Less code snippets for xa-inputs private package.",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "displayName": "React - Less snippets (XAcademy)",
     "publisher": "Tomi",
     "icon": "images/less_icon.png",
