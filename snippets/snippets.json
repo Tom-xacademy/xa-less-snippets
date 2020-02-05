@@ -8,7 +8,7 @@
         "description": "In the common component tree structure, it imports the Colors and Mixins less files."
     },
     "XACommonInputStyle": {
-        "prefix": "iwrapper",
+        "prefix": "_wrapper",
         "body": [
             ".wrapper {",
             "    // wrapper styling, editing it is not recommended",
@@ -62,7 +62,7 @@
         "description": "Generates a styling structure for the common-input class and the 'wrapper' that is used around the xa-inputs."
     },
     "XAButtonStyling": {
-        "prefix": "ibutton",
+        "prefix": "_button",
         "body": [
             ".xa-button {",
             "    &:focus {",
@@ -92,7 +92,7 @@
         "description": "Generates a styling structure for the xa-button."
     },
     "XAICheckboxStyling": {
-        "prefix": "icheckbox",
+        "prefix": "_checkbox",
         "body": [
             ".checkbox-container {",
             "    // color: white;",
@@ -136,7 +136,7 @@
         "description": "Generates a styling structure for checkbox input type."
     },
     "XAInputsDatepickerStyling": {
-        "prefix": "idate",
+        "prefix": "_date",
         "body": [
             ".wrapper {",
             "    .datepicker-icon {",
@@ -302,7 +302,7 @@
         "description": "Generates a styling structure for the datepicker input."
     },
     "XARadioInputStyling": {
-        "prefix": "iradio",
+        "prefix": "_radio",
         "body": [
             "// Customize the label (the radio-container)",
             ".radio-container {",
@@ -348,7 +348,7 @@
         "description": "Generats a styling structure for the radio button."
     },
     "XASelectInputStyling": {
-        "prefix": "iselect",
+        "prefix": "_select",
         "body": [
             ".select-input {",
             "    .__control {",
@@ -397,7 +397,7 @@
         "description": "Generates a styling structure for the select input type."
     },
     "XASwitchInputStyling": {
-        "prefix": "iswitch",
+        "prefix": "_switch",
         "body": [
             ".switch {",
             "    .switch {",
@@ -442,7 +442,7 @@
         "description": "Generates a styling structure for the switch input type."
     },
     "XAErrorSnippet": {
-        "prefix": "ierror",
+        "prefix": "_error",
         "body": [
             ".error-container {",
             "   //This outputs the error in a small 'box' with some padding",
@@ -494,7 +494,7 @@
         "description": "Generates styling for the error handler component."
     },
     "XAMediaQuery": {
-        "prefix": "imedia",
+        "prefix": "_media",
         "body": [ "@media screen and (max-width: ${1}) {", "   ${2}", "}" ],
         "description": "Generates a media query with max-width restriction"
     }
