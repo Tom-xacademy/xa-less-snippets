@@ -11,15 +11,15 @@ Sadly, Microsoft still doesn't support private extensions so here it is...
 |PREFIX          |DESCRIPTION                                                  |
 |----------------|-------------------------------------------------------------|
 |ims             |Import Colors and Mixins less files.                         |
-|idate           |Import datepicker className structure in the file.           |
-|ierror          |Import error handler className structure in the file.        |
-|iselect         |Import select input className structure in the file.         |
-|iwrapper        |Import input wrapper className structure in the file.        |
-|icheckbox       |Import checkbox input className structure in the file.       |
-|iradio          |Import radio input className structure in the file.          |
-|iswitch         |Import switch input className structure in the file.         |
-|ibutton         |Import Button className structure in the file.               |
-|imedia          |Generates a media query snippet with max-width.              |
+|_date           |Import datepicker className structure in the file.           |
+|_error          |Import error handler className structure in the file.        |
+|_select         |Import select input className structure in the file.         |
+|_wrapper        |Import input wrapper className structure in the file.        |
+|_checkbox       |Import checkbox input className structure in the file.       |
+|_radio          |Import radio input className structure in the file.          |
+|_switch         |Import switch input className structure in the file.         |
+|_button         |Import Button className structure in the file.               |
+|_media          |Generates a media query snippet with max-width.              |
 
 # Repository URLs
 
