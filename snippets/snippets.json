@@ -495,7 +495,39 @@
     },
     "XAMediaQuery": {
         "prefix": "_media",
-        "body": [ "@media screen and (max-width: ${1}) {", "   ${2}", "}" ],
+        "body": ["@media screen and (max-width: ${1}) {", "   ${2}", "}"],
         "description": "Generates a media query with max-width restriction"
+    },
+    "XAFLEXC": {
+        "prefix": "_flexc",
+        "body": [
+            "display: flex;",
+            "flex-direction: row;",
+            "justify-content: center;",
+            "align-item: center;"
+        ]
+    },
+    "XAFLEXCW": {
+        "prefix": "_flexcw",
+        "body": [
+            "display: flex;",
+            "flex-direction: row;",
+            "justify-content: center;",
+            "align-item: center;",
+            "flex-wrap: wrap;"
+        ]
+    },
+    "XAFLEXV": {
+        "prefix": "_flexv",
+        "body": ["display: flex;", "flex-direction: row;", "align-item: center;"]
+    },
+    "XAFLEXVW": {
+        "prefix": "_flexvw",
+        "body": [
+            "display: flex;",
+            "flex-direction: row;",
+            "align-item: center;",
+            "flex-wrap: wrap;"
+        ]
     }
 }
