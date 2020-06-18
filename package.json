@@ -1,7 +1,7 @@
 {
     "name": "xalesssnippets",
     "description": "Less code snippets for xa-inputs private package.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "displayName": "XACADEMY Less snippets",
     "publisher": "Tomi",
     "icon": "images/less_icon.png",
