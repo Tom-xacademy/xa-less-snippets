@@ -2,8 +2,20 @@
     "XAImportStyleAndMixins": {
         "prefix": "ims",
         "body": [
+            "@import \"../../../../Style/Mixins.less\";",
+            "@import \"../../../../Style/Colors.less\";",
+            "",
+            ".${0}"
+        ],
+        "description": "In the common component tree structure, it imports the Colors and Mixins less files."
+    },
+    "XAImportStyleAndMixinsFromLess": {
+        "prefix": "imc",
+        "body": [
             "@import \"../../../../Css/Mixins.less\";",
-            "@import \"../../../../Css/Colors.less\";"
+            "@import \"../../../../Css/Colors.less\";",
+            "",
+            ".${0}"
         ],
         "description": "In the common component tree structure, it imports the Colors and Mixins less files."
     },
