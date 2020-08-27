@@ -1,13 +1,14 @@
 # Warning
 
-This extension was created to generate classname structures for xa-inputs, which is a private pacakge.
+This extension was created to generate classname structures for xa-inputs, which is a private package.
 I don't recommended installing this extension, it's just that Microsoft still doesn't support private extensions.
 
 # Commands
 
 | PREFIX     | DESCRIPTION                                                 |
 | ---------- | ----------------------------------------------------------- |
-| ims        | Import Colors and Mixins less files.                        |
+| ims        | Import Colors and Mixins less files from 'Style' folder.    |
+| imc        | Import Colors and Mixins less files from 'Css' folder.      |
 | \_date     | Import datepicker className structure in the file.          |
 | \_error    | Import error handler className structure in the file.       |
 | \_select   | Import select input className structure in the file.        |
