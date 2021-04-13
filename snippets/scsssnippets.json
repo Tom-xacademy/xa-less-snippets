@@ -1,0 +1,101 @@
+{
+    "XAIportStyle": {
+        "prefix": "ims",
+        "body": ["@use \"../../../../Style/index\" as *;", "", ".${0}"],
+        "description": "Add a @use line to import the index containing variables,mixins, colors with *;"
+    },
+    "XAErrorSnippet": {
+        "prefix": "_error",
+        "body": [
+            ".error-container {",
+            "   //This outputs the error in a small 'box' with some padding",
+            "   //and possibly a button that can reset the error after confirmation",
+            "   &__oneline-text {",
+            "   }",
+            "",
+            "   //This outputs the error as a simple string without any padding",
+            "   &__redline {",
+            "   }",
+            "",
+            "   &__button {",
+            "       // background-color: #your-color;",
+            "       &:hover {",
+            "           // background-color: #your-color;",
+            "       }",
+            "   }",
+            "}",
+            "",
+            ".floating-error-container {",
+            "   // background-color: #your-color;",
+            "   .floating-error {",
+            "      &__title {",
+            "       }",
+            "",
+            "       &__message {",
+            "           // color: #your-color;",
+            "       }",
+            "",
+            "       &__missing-param-list {",
+            "           // color: #your-color;",
+            "",
+            "           &--element {",
+            "           }",
+            "       }",
+            "",
+            "       &__button {",
+            "           // background-color: #your-color;",
+            "           // color: #your-color;",
+            "",
+            "           &:hover {",
+            "               // background-color: #your-color;",
+            "               // color: #your-color;",
+            "           }",
+            "       }",
+            "   }",
+            "}"
+        ],
+        "description": "Generates styling for the error handler component."
+    },
+    "XAMediaQuery": {
+        "prefix": "_media",
+        "body": ["@media screen and (max-width: ${1}) {", "    ${2}", "}"],
+        "description": "Generates a media query with max-width restriction"
+    },
+    "XAMediaQueryWithMin": {
+        "prefix": "_mediamin",
+        "body": ["@media screen and (max-width: ${1}) and (min-width: ${2}) {", "    ${3}", "}"],
+        "description": "Generates a media query with max-width and min-width restriction"
+    },
+    "XAFLEXC": {
+        "prefix": "_flexc",
+        "body": [
+            "display: flex;",
+            "flex-direction: row;",
+            "justify-content: center;",
+            "align-items: center;"
+        ]
+    },
+    "XAFLEXCW": {
+        "prefix": "_flexcw",
+        "body": [
+            "display: flex;",
+            "flex-direction: row;",
+            "justify-content: center;",
+            "align-items: center;",
+            "flex-wrap: wrap;"
+        ]
+    },
+    "XAFLEXV": {
+        "prefix": "_flexh",
+        "body": ["display: flex;", "flex-direction: row;", "align-items: center;"]
+    },
+    "XAFLEXVW": {
+        "prefix": "_flexhw",
+        "body": [
+            "display: flex;",
+            "flex-direction: row;",
+            "align-items: center;",
+            "flex-wrap: wrap;"
+        ]
+    }
+}
