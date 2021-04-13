@@ -1,8 +1,8 @@
 {
-    "name": "xalesssnippets",
-    "description": "Less code snippets for xa-inputs private package.",
-    "version": "1.3.0",
-    "displayName": "XACADEMY Less snippets",
+    "name": "xa-style-snippets",
+    "description": "Less/Scss code snippets for xa-inputs private package, etc...",
+    "version": "1.4.0",
+    "displayName": "XACADEMY Styling snippets",
     "publisher": "Tomi",
     "icon": "images/less_icon.png",
     "license": "ISC",
@@ -11,9 +11,16 @@
         "url": "https://github.com/Tom-xacademy/xa-less-snippets"
     },
     "keywords": [
-        "less-xa",
+        "less",
+        "scss",
+        "tomi",
+        "snippets",
         "xacademy"
     ],
+    "scripts": {
+        "build": "vsce package",
+        "clean": "rm -rf xasnippets-*.vsix"
+    },
     "engines": {
         "vscode": "0.10.x"
     },
@@ -25,6 +32,10 @@
             {
                 "language": "less",
                 "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/scsssnippets.json"
             }
         ]
     },
